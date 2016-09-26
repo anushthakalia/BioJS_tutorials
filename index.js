@@ -1,5 +1,14 @@
-function biojs101(a,b){
-	return a+b;
-}
-console.log(biojs101(1,2));
-module.exports=biojs101;
+
+var graduates = {};
+
+graduates.read_static = function() {
+  var data = "greenify:DE\ndaviddao:HK\nmhelvens:NL\ntimruffles:UK\niriscshih:TW\n\n";
+  return graduates.parse(data);
+};
+
+graduates.parse = function(data) {
+  // you need to fill this
+  return {};
+};
+
+module.exports = graduates;
